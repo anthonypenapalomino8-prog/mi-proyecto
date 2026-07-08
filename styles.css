@@ -1,78 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Fredoka',sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#6dd5ed,#2193b0);
-    height:100vh;
+
+    min-height:100vh;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
+    background:linear-gradient(135deg,#9be7ff,#b2f7ef,#fff3b0,#ffd6e0);
+
+    padding:30px;
+
 }
 
 .contenedor{
-    width:500px;
-    max-width:90%;
-    background:white;
-    padding:40px;
-    border-radius:20px;
+
+    width:520px;
+    max-width:95%;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:30px;
+
+    padding:35px;
+
     text-align:center;
-    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+
+}
+
+.logo{
+
+    width:140px;
+
+    margin-bottom:15px;
+
 }
 
 h1{
+
+    color:#1565c0;
+
     font-size:38px;
-    color:#333;
+
+    margin-bottom:5px;
+
+}
+
+.subtitulo{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+    font-size:18px;
+
 }
 
 h2{
-    margin:20px 0 30px;
-    color:#666;
+
+    color:#444;
+
+    margin-bottom:25px;
+
+    font-size:24px;
+
 }
 
 button{
+
     width:100%;
+
     padding:18px;
+
     margin:10px 0;
+
     border:none;
-    border-radius:12px;
+
+    border-radius:18px;
+
     font-size:22px;
-    font-weight:bold;
+
+    font-weight:600;
+
     cursor:pointer;
+
     transition:.25s;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.12);
+
 }
 
 button:hover{
-    transform:scale(1.04);
+
+    transform:translateY(-4px) scale(1.03);
+
 }
 
 .blanca{
-    background:#ECECEC;
+
+    background:white;
+
+    border:3px solid #d7d7d7;
+
 }
 
 .verde{
-    background:#2ecc71;
+
+    background:#43a047;
+
     color:white;
+
 }
 
 .lila{
-    background:#9b59b6;
+
+    background:#ab47bc;
+
     color:white;
+
 }
 
 .amarillo{
-    background:#f1c40f;
+
+    background:#ffd54f;
+
 }
 
 .turquesa{
-    background:#1abc9c;
+
+    background:#26c6da;
+
     color:white;
+
 }
 
 .rosa{
-    background:#ff4fa3;
+
+    background:#ec407a;
+
     color:white;
+
+}
+
+footer{
+
+    margin-top:30px;
+
+    color:#888;
+
+    font-size:15px;
+
 }
